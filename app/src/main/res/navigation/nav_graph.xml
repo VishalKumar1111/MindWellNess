@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstfrag"
+    >
+
+    <fragment
+        android:name="Com.Rlogixx.Mindwellness.FirstFrag"
+        android:id="@+id/firstfrag"
+        android:label="FirstFrag"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_firstfrag_to_secondfrag"
+            app:destination="@id/secondfrag" />
+    </fragment>
+    <fragment
+        android:name="Com.Rlogixx.Mindwellness.SecondFrag"
+        android:id="@+id/secondfrag"
+        android:label="SecondFrag"
+        tools:layout="@layout/second_fragment"/>
+
+
+</navigation>
