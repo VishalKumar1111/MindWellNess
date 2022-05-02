@@ -10,14 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MindWellness">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/Theme.MindWellness.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+        <activity
+            android:name="Com.Rlogixx.Mindwellness.MainActivity"
+            android:exported="true">
+        </activity>
+
     </application>
 
 </manifest>
