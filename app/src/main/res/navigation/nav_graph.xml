@@ -19,7 +19,16 @@
         android:name="Com.Rlogixx.Mindwellness.SecondFrag"
         android:id="@+id/secondfrag"
         android:label="SecondFrag"
-        tools:layout="@layout/second_fragment"/>
+        tools:layout="@layout/second_fragment">
+        <action
+            android:id="@+id/action_secondfrag_to_thirdFrag"
+            app:destination="@id/thirdFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFrag"
+        android:name="Com.Rlogixx.Mindwellness.ThirdFrag"
+        android:label="ThirdFrag"
+        tools:layout="@layout/thirdfrag"/>
 
 
 </navigation>

@@ -9,6 +9,113 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
-        android:orientation="vertical"/>
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_stress"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="15dp">
+
+
+            <ImageView
+                android:id="@+id/img_stress"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/mindfull" />
+
+            <TextView
+                android:id="@+id/text_stress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_gravity="bottom"
+                android:textStyle="bold|italic"
+                android:text="MINFULL MEDITATION"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_counsel"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="15dp">
+
+
+            <ImageView
+                android:id="@+id/img_counselling"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/vipassana" />
+
+            <TextView
+                android:id="@+id/info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:textStyle="bold|italic"
+                android:layout_gravity="bottom"
+                android:text="Vipasana Meditation"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_counsel"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="15dp">
+
+
+            <ImageView
+                android:id="@+id/img_counselling"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/sukhasana" />
+
+            <TextView
+                android:id="@+id/info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:textStyle="bold|italic"
+                android:layout_gravity="bottom"
+                android:text="Sukhasana Meditation"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_counsel"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="15dp">
+
+
+            <ImageView
+                android:id="@+id/img_counselling"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/breadt_awareness" />
+
+            <TextView
+                android:id="@+id/info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:textStyle="bold|italic"
+                android:layout_gravity="bottom"
+                android:text="Breath Awareness Meditation"
+                android:textSize="25sp" />
+        </androidx.cardview.widget.CardView>>
+
+
+    </LinearLayout>
 
 </ScrollView>
