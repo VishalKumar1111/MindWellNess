@@ -15,9 +15,13 @@ class SecondFrag:Fragment(R.layout.second_fragment) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val medic=view.findViewById<ImageView>(R.id.img_medic)
+        val stress=view.findViewById<ImageView>(R.id.img_stress)
 
         medic.setOnClickListener {
             it.findNavController().navigate(R.id.action_secondfrag_to_thirdFrag)
+        }
+        stress.setOnClickListener {
+            it.findNavController().navigate(R.id.action_secondfrag_to_fourth)
         }
     }
 }

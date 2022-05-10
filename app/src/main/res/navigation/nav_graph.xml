@@ -23,12 +23,20 @@
         <action
             android:id="@+id/action_secondfrag_to_thirdFrag"
             app:destination="@id/thirdFrag" />
+        <action
+            android:id="@+id/action_secondfrag_to_fourth"
+            app:destination="@id/fourth" />
     </fragment>
     <fragment
         android:id="@+id/thirdFrag"
         android:name="Com.Rlogixx.Mindwellness.ThirdFrag"
         android:label="ThirdFrag"
         tools:layout="@layout/thirdfrag"/>
+    <fragment
+        android:id="@+id/fourth"
+        android:name="Com.Rlogixx.Mindwellness.Fourth"
+        android:label="ThirdFrag"
+        tools:layout="@layout/fragment_fourth"/>
 
 
 </navigation>
