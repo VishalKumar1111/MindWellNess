@@ -34,9 +34,18 @@
         tools:layout="@layout/thirdfrag"/>
     <fragment
         android:id="@+id/fourth"
-        android:name="Com.Rlogixx.Mindwellness.Fourth"
+        android:name="Com.Rlogixx.Mindwellness.Stress.Fourth"
         android:label="ThirdFrag"
-        tools:layout="@layout/fragment_fourth"/>
+        tools:layout="@layout/fragment_fourth">
+        <action
+            android:id="@+id/action_fourth_to_yes"
+            app:destination="@id/yes" />
+    </fragment>
+    <fragment
+        android:id="@+id/yes"
+        android:name="Com.Rlogixx.Mindwellness.Stress.Yes"
+        android:label="fragment_yes"
+        tools:layout="@layout/fragment_yes" />
 
 
 </navigation>
