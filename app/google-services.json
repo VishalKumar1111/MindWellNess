@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441255991468",
+    "firebase_url": "https://mindwellness-47a0d-default-rtdb.firebaseio.com",
+    "project_id": "mindwellness-47a0d",
+    "storage_bucket": "mindwellness-47a0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441255991468:android:02ed69a0711c59a1862709",
+        "android_client_info": {
+          "package_name": "Com.Rlogixx.Mindwellness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441255991468-8qvb72kflrh2ke6bpf1inmkm8gj3hs3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXk4wFLyr2ocudis6FK94sGaAEzrqu5K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441255991468-8qvb72kflrh2ke6bpf1inmkm8gj3hs3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
