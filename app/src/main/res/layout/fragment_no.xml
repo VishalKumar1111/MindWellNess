@@ -17,7 +17,7 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="244dp"
             android:src="@drawable/happy" />
 
         <TextView
@@ -31,4 +31,5 @@
             android:textStyle="italic|bold" />
 
         </LinearLayout>
+
     </LinearLayout>
