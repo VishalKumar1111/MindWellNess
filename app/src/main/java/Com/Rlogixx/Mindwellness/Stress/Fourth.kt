@@ -98,13 +98,10 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
             }
 
         }
+    }
         button2.setOnClickListener {
             next++
-
             new++
-
-            low++
-
             if (next==1){
                 text.text="Have parents, other relatives, or maybe even friends accused you of being “irritated,” “nasty,” or “always in a bad mood?"
             }
@@ -120,14 +117,10 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
             if (next==5){
                 text.text="Have you noticed a sudden change in your weight?"
             }
-            if (low>3){
-                findNavController().navigate(R.id.action_fourth_to_yes)
-
-            }
             if (new==4){
                 findNavController().navigate(R.id.action_fourth_to_yes)
             }
         }
     }
-}
+
 }
