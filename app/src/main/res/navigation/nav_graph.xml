@@ -53,6 +53,7 @@
         android:label="fragment_yes"
         tools:layout="@layout/fragment_yes" />
     <fragment
+<<<<<<< HEAD
         android:id="@+id/treatment"
         android:name="Com.Rlogixx.Mindwellness.PossibleTreatment.Treatment"
         android:label="Treatment"
@@ -62,6 +63,11 @@
         android:name="Com.Rlogixx.Mindwellness.Stress.No"
         android:label="fragment_no"
         tools:layout="@layout/fragment_no" />
+=======
+        android:id="@+id/no"
+        android:name="Com.Rlogixx.Mindwellness.Stress.No"
+        android:label="No" />
+>>>>>>> origin/master
 
 
 </navigation>
