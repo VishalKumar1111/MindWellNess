@@ -23,7 +23,7 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
         val button=view.findViewById<Button>(R.id.button2)
         val button2=view.findViewById<Button>(R.id.button3)
 
-<<<<<<< HEAD
+
     button.setOnClickListener {
         count++
         score++
@@ -62,7 +62,7 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
         if(score==4){
             findNavController().navigate(R.id.action_fourth_to_no)
         }
-=======
+
         button.setOnClickListener {
             count++
             score++
@@ -85,7 +85,7 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
             if (count==4)
             {
                 text.text="Do you often oversleep? Do you think you get too little sleep (and may have insomnia)?"
->>>>>>> origin/master
+
 
             }
             if (count==5){
@@ -100,11 +100,11 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
         }
         button2.setOnClickListener {
             next++
-<<<<<<< HEAD
+
             new++
-=======
+
             low++
->>>>>>> origin/master
+
             if (next==1){
                 text.text="Have parents, other relatives, or maybe even friends accused you of being “irritated,” “nasty,” or “always in a bad mood?"
             }
@@ -129,4 +129,5 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
             }
         }
     }
+}
 }

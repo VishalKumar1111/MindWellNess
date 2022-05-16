@@ -11,8 +11,8 @@ class No : Fragment(R.layout.fragment_no) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
     }
-<<<<<<< HEAD
+
 }
-=======
- }
->>>>>>> origin/master
+
+
+

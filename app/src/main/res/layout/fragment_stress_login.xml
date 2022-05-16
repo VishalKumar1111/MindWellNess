@@ -11,15 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-<<<<<<< HEAD
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-=======
->>>>>>> origin/master
 
 
         <TextView
@@ -29,12 +27,8 @@
             android:layout_marginTop="180dp"
             android:text="REGISTRATION"
             android:textColor="@color/black"
-<<<<<<< HEAD
-            android:textSize="40sp"
             android:background="@color/white"
-=======
             android:textSize="30sp"
->>>>>>> origin/master
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -45,17 +39,11 @@
             android:id="@+id/firstName"
             android:layout_width="360dp"
             android:layout_height="50dp"
-<<<<<<< HEAD
-            android:layout_marginTop="36dp"
-            android:background="@color/white"
-            android:hint="First Name"
-            android:textColor="@color/black"
-=======
+
             android:textColor="@color/black"
             android:layout_marginTop="36dp"
             android:background="@color/white"
             android:hint="First Name"
->>>>>>> origin/master
             android:paddingLeft="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -79,13 +67,8 @@
             android:layout_width="360dp"
             android:layout_height="50dp"
             android:layout_marginTop="32dp"
-<<<<<<< HEAD
-            android:background="@color/white"
-            android:textColor="@color/black"
-=======
             android:textColor="@color/black"
             android:background="@color/white"
->>>>>>> origin/master
             android:hint="Age"
             android:paddingLeft="20dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -96,18 +79,11 @@
             android:id="@+id/userName"
             android:layout_width="360dp"
             android:layout_height="50dp"
-<<<<<<< HEAD
-            android:layout_marginTop="32dp"
             android:background="@color/white"
-            android:hint="Username"
-            android:textColor="@color/black"
-=======
             android:textColor="@color/black"
             android:layout_marginTop="32dp"
-            android:background="@color/white"
             android:hint="Mobile NO."
             android:inputType="phone"
->>>>>>> origin/master
             android:paddingLeft="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -119,11 +95,7 @@
             android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="612dp"
-<<<<<<< HEAD
             android:backgroundTint="@color/purple_500"
-=======
-            android:backgroundTint="@color/teal_200"
->>>>>>> origin/master
             android:text="Login"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
