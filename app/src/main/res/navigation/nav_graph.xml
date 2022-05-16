@@ -26,6 +26,9 @@
         <action
             android:id="@+id/action_secondfrag_to_fourth"
             app:destination="@id/fourth" />
+        <action
+            android:id="@+id/action_secondfrag_to_treatment"
+            app:destination="@id/treatment" />
     </fragment>
     <fragment
         android:id="@+id/thirdFrag"
@@ -40,12 +43,25 @@
         <action
             android:id="@+id/action_fourth_to_yes"
             app:destination="@id/yes" />
+        <action
+            android:id="@+id/action_fourth_to_no"
+            app:destination="@id/no" />
     </fragment>
     <fragment
         android:id="@+id/yes"
         android:name="Com.Rlogixx.Mindwellness.Stress.Yes"
         android:label="fragment_yes"
         tools:layout="@layout/fragment_yes" />
+    <fragment
+        android:id="@+id/treatment"
+        android:name="Com.Rlogixx.Mindwellness.PossibleTreatment.Treatment"
+        android:label="Treatment"
+        tools:layout="@layout/fragment_treatment"/>
+    <fragment
+        android:id="@+id/no"
+        android:name="Com.Rlogixx.Mindwellness.Stress.No"
+        android:label="fragment_no"
+        tools:layout="@layout/fragment_no" />
 
 
 </navigation>

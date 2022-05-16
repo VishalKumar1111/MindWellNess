@@ -7,7 +7,6 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 
 class Fourth:Fragment(R.layout.fragment_fourth) {
@@ -15,6 +14,7 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
 private var count=0
     var score=0
     private var next=0
+    var new=0
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -30,21 +30,21 @@ private var count=0
         {
             text.text="Is you ARe Felling Depressed"
             //score+=1
-            Toast.makeText(requireContext(),"SCore: $score",Toast.LENGTH_LONG).show()
+           // Toast.makeText(requireContext(),"SCore: $score",Toast.LENGTH_LONG).show()
 
         }
         if(count==2)
         {
             text.text="Are you Felling cold"
            // score+=1
-            Toast.makeText(requireContext(),"SCore: $score",Toast.LENGTH_LONG).show()
+            //Toast.makeText(requireContext(),"SCore: $score",Toast.LENGTH_LONG).show()
 
         }
         if(count==3)
         {
             text.text="Disappointment at home, work, or school (in teens, this may be breaking up with a boyfriend or girlfriend, failing a class or parents divorcing)"
            // score+=1
-            Toast.makeText(requireContext(),"Score: $score",Toast.LENGTH_LONG).show()
+           // Toast.makeText(requireContext(),"Score: $score",Toast.LENGTH_LONG).show()
 
         }
         if (count==4)
@@ -54,17 +54,18 @@ private var count=0
         }
         if (count==5){
             text.text="Do you have aches and pains?"
-            score+=1
+            //score+=1
 
            //
         }
         if(score==4){
-            findNavController().navigate(R.id.action_fourth_to_yes)
+            findNavController().navigate(R.id.action_fourth_to_no)
         }
 
     }
         button2.setOnClickListener {
             next++
+            new++
             if (next==1){
                 text.text="Have parents, other relatives, or maybe even friends accused you of being “irritated,” “nasty,” or “always in a bad mood?"
             }
@@ -80,6 +81,9 @@ private var count=0
             if (next==5){
                 text.text="Have you noticed a sudden change in your weight?"
 
+            }
+            if (new==4){
+                findNavController().navigate(R.id.action_fourth_to_yes)
             }
         }
 
