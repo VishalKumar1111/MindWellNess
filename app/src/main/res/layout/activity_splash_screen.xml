@@ -4,35 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#5CCDDC39"
     tools:context="Com.Rlogixx.Mindwellness.SplashScreen">
 
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="328dp"
-        android:layout_height="0dp"
+        android:layout_width="324dp"
+        android:layout_height="433dp"
+        android:layout_marginStart="57dp"
         android:layout_marginTop="141dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="68dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/launchscreen" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="335dp"
-        android:layout_height="68dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="107dp"
-        android:background="#00D4B4"
-        android:text="MindwellNess "
-        android:textColor="#292424"
-        android:textSize="50sp"
-        android:textStyle="bold|italic"
+        android:layout_marginBottom="157dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/launchscreen" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

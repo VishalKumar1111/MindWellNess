@@ -24,45 +24,6 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
         val button2=view.findViewById<Button>(R.id.button3)
 
 
-    button.setOnClickListener {
-        count++
-        score++
-        if(count==1)
-        {
-            text.text="Is you ARe Felling Depressed"
-            //score+=1
-           // Toast.makeText(requireContext(),"SCore: $score",Toast.LENGTH_LONG).show()
-
-        }
-        if(count==2)
-        {
-            text.text="Are you Felling cold"
-           // score+=1
-            //Toast.makeText(requireContext(),"SCore: $score",Toast.LENGTH_LONG).show()
-
-        }
-        if(count==3)
-        {
-            text.text="Disappointment at home, work, or school (in teens, this may be breaking up with a boyfriend or girlfriend, failing a class or parents divorcing)"
-           // score+=1
-           // Toast.makeText(requireContext(),"Score: $score",Toast.LENGTH_LONG).show()
-
-        }
-        if (count==4)
-        {
-            text.text="Do you often oversleep? Do you think you get too little sleep (and may have insomnia)?"
-           // score+=1
-        }
-        if (count==5){
-            text.text="Do you have aches and pains?"
-            //score+=1
-
-           //
-        }
-        if(score==4){
-            findNavController().navigate(R.id.action_fourth_to_no)
-        }
-
         button.setOnClickListener {
             count++
             score++
@@ -94,11 +55,12 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
             }
             if (score>3)
             {
-                findNavController().navigate(R.id.action_fourth_to_no)
+                findNavController().navigate(R.id.action_fourth_to_yes)
             }
 
         }
-    }
+
+
         button2.setOnClickListener {
             next++
             new++
@@ -118,7 +80,7 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
                 text.text="Have you noticed a sudden change in your weight?"
             }
             if (new==4){
-                findNavController().navigate(R.id.action_fourth_to_yes)
+                findNavController().navigate(R.id.action_fourth_to_no)
             }
         }
     }
