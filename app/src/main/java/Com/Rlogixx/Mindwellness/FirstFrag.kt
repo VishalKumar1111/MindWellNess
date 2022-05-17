@@ -22,9 +22,11 @@ class FirstFrag:Fragment(R.layout.fragment_first) {
         val imageSlider = view.findViewById<ImageSlider>(R.id.image_slider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.one,"Helping you To fight your Depression"))
         imageList.add(SlideModel(R.drawable.two,"Helping you To fight your Depression"))
-        imageList.add(SlideModel(R.drawable.three,"Helping you To fight your Depression"))
+        imageList.add(SlideModel(R.drawable.one,"You don’t have to control your thoughts. You just have to stop letting them control you"))
+        imageList.add(SlideModel(R.drawable.three,"Self-care is how you take your power back"))
+        imageList.add(SlideModel(R.drawable.four,"Your illness is not your identity. Your chemistry is not your character"))
+        imageList.add(SlideModel(R.drawable.sixteen,"If you feel like life is sinking, try positive thinking!"))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
 
