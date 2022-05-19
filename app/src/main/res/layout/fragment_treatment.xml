@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -42,7 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -69,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -95,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
