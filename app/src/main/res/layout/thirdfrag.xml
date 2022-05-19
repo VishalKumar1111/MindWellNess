@@ -5,18 +5,20 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/background">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:orientation="vertical">
+
         <androidx.cardview.widget.CardView
             android:id="@+id/card_mindfull"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -30,11 +32,11 @@
                 android:id="@+id/text_mindfull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#fff"
+                android:background="#9FA8DA"
                 android:textColor="@color/black"
                 android:layout_gravity="bottom"
                 android:textStyle="bold|italic"
-                android:text="MINFULL MEDITATION"
+                android:text="MINFULL  "
                 android:textSize="30sp" />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
@@ -43,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -57,11 +59,11 @@
                 android:id="@+id/info_vipasana"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#fff"
+                android:background="#9FA8DA"
                 android:textColor="@color/black"
                 android:textStyle="bold|italic"
                 android:layout_gravity="bottom"
-                android:text="Vipasana Meditation"
+                android:text="Vipasana "
                 android:textSize="30sp" />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
@@ -70,7 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -84,11 +86,11 @@
                 android:id="@+id/info_sukhasana"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#fff"
+                android:background="#9FA8DA"
                 android:textColor="@color/black"
                 android:textStyle="bold|italic"
                 android:layout_gravity="bottom"
-                android:text="Sukhasana Meditation"
+                android:text="Sukhasana  "
                 android:textSize="30sp" />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
@@ -97,7 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -111,11 +113,11 @@
                 android:id="@+id/info_breadth"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#fff"
+                android:background="#9FA8DA"
                 android:textColor="@color/black"
                 android:textStyle="bold|italic"
                 android:layout_gravity="bottom"
-                android:text="Breath Awareness Meditation"
+                android:text="Breath Awareness "
                 android:textSize="25sp" />
         </androidx.cardview.widget.CardView>
 

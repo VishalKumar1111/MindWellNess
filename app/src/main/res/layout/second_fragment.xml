@@ -17,13 +17,14 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
                 android:id="@+id/img_stress"
                 android:layout_width="match_parent"
                 android:scaleType="fitXY"
+
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/two" />
 
@@ -31,7 +32,7 @@
                 android:id="@+id/text_stress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#A6FFEB3B"
+                android:background="#9FA8DA"
                 android:textColor="@color/black"
                 android:layout_gravity="bottom"
                 android:textStyle="bold|italic"
@@ -44,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -58,7 +59,7 @@
                 android:id="@+id/info_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#A6FFEB3B"
+                android:background="#9FA8DA"
                 android:textStyle="bold|italic"
                 android:layout_gravity="bottom"
                 android:text="Possible Treatment"
@@ -71,7 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
         <ImageView
@@ -85,7 +86,7 @@
             android:id="@+id/txt_investigation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#A6FFEB3B"
+            android:background="#9FA8DA"
             android:layout_gravity="bottom"
             android:textStyle="bold|italic"
             android:textColor="@color/black"
@@ -98,7 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -112,7 +113,7 @@
                 android:id="@+id/txt_medic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#A6FFEB3B"
+                android:background="#9FA8DA"
                 android:textColor="@color/black"
                 android:textStyle="bold|italic"
                 android:layout_gravity="bottom"
@@ -125,7 +126,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -139,7 +140,7 @@
                 android:id="@+id/txt_counselling"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#A6FFEB3B"
+                android:background="#9FA8DA"
                 android:layout_gravity="bottom"
                 android:textStyle="bold|italic"
                 android:textColor="@color/black"
@@ -152,7 +153,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             app:cardCornerRadius="4dp"
-            android:layout_margin="15dp">
+            android:layout_margin="5dp">
 
 
             <ImageView
@@ -166,7 +167,7 @@
                 android:id="@+id/txt_treat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#A6FFEB3B"
+                android:background="#9FA8DA"
                 android:layout_gravity="bottom"
                 android:textStyle="bold|italic"
                 android:textColor="@color/black"

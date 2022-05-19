@@ -22,11 +22,13 @@ class FirstFrag:Fragment(R.layout.fragment_first) {
         val imageSlider = view.findViewById<ImageSlider>(R.id.image_slider)
         val imageList = ArrayList<SlideModel>()
 
+        imageList.add(SlideModel(R.drawable.one," Meditation is not what you think"))
         imageList.add(SlideModel(R.drawable.two,"Helping you To fight your Depression"))
-        imageList.add(SlideModel(R.drawable.one,"You don’t have to control your thoughts. You just have to stop letting them control you"))
-        imageList.add(SlideModel(R.drawable.three,"Self-care is how you take your power back"))
-        imageList.add(SlideModel(R.drawable.four,"Your illness is not your identity. Your chemistry is not your character"))
-        imageList.add(SlideModel(R.drawable.sixteen,"If you feel like life is sinking, try positive thinking!"))
+        imageList.add(SlideModel(R.drawable.three,"Brilliant things happen in calm minds"))
+        imageList.add(SlideModel(R.drawable.four,"A day thinking about what could happen, should happen, or what might have been is a day missed"))
+        imageList.add(SlideModel(R.drawable.ten,"Distractions are everywhere. Notice what takes your attention, acknowledge it, and then let it go"))
+        imageList.add(SlideModel(R.drawable.twelve,"To know one's own mind is nothing short of life-changing"))
+        imageList.add(SlideModel(R.drawable.fifteen,"Look up and smile. But only if you feel like it"))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
 
