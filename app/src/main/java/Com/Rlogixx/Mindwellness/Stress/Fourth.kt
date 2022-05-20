@@ -29,28 +29,28 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
             score++
             if(count==1)
             {
-                text.text="Is you ARe Felling Depressed"
+                text.text="Felling down,Depressed , or hopeless ? "
 
             }
             if(count==2)
             {
-                text.text="Are you Felling cold"
+                text.text="Touble Falling or staying asleep too much ?"
 
             }
             if(count==3)
             {
-                text.text="Disappointment at home, work, or school (in teens, this may be breaking up with a boyfriend or girlfriend, failing a class or parents divorcing)"
+                text.text="Felling tired or having little energy ?"
 
 
             }
             if (count==4)
             {
-                text.text="Do you often oversleep? Do you think you get too little sleep (and may have insomnia)?"
+                text.text="poor Apepetite or overeating ?"
 
 
             }
             if (count==5){
-                text.text="Do you have aches and pains?"
+                text.text="felling bad about yourself or or that you are a failure or have let yourself or your family down ?"
 
             }
             if (score>3)
@@ -65,16 +65,16 @@ class Fourth:Fragment(R.layout.fragment_fourth) {
             next++
             new++
             if (next==1){
-                text.text="Have parents, other relatives, or maybe even friends accused you of being “irritated,” “nasty,” or “always in a bad mood?"
+                text.text="Moving or speaking so slowly that other could have noticed ?"
             }
             if (next==2){
-                text.text="Does life seem pointless?"
+                text.text="Does life seem pointless ?"
             }
             if(next==3){
                 text.text="Does it seem like it’s impossible to concentrate?"
             }
             if (next==4){
-                text.text="Have you withdrawn from your friends and family?"
+                text.text="thoughts that you would be better of dead ,or hurting yourself in some other way ?"
             }
             if (next==5){
                 text.text="Have you noticed a sudden change in your weight?"
